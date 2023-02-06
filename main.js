@@ -14,7 +14,10 @@ while (uSer === rNum || count <= 2){
   uSer = Number(prompt(""));
   count++;
 }
-if (uSer > rNum){
+if(uSer === rNum){
+    console("YOU GOT IT !!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+}
+else if (uSer > rNum){
     console.log("Sorry too high! I was thinking of " + rNum);
 } 
 else {
